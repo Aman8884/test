@@ -47,6 +47,6 @@ class retreive_data:
       return df
 d=retreive_data()
 final_data=d.scrape_data()
-
+print(final_data.iloc[0][0])
 print('Hello World')
 print('Hello')
